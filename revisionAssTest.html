@@ -1,0 +1,29 @@
+<!-- Open your HTML file in a web browser.
+Enter some text into the input field.
+Click the submit button.
+An alert should appear, displaying the entered value.
+Below the button, you should see the entered value displayed on the webpage.
+After getting the alert your final output look like this -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revision Assignment</title>
+</head>
+<body>
+
+    <input type="text" id="name">
+    <button onclick="b1()">Submit</button>
+    <h1 id="head">---</h1>
+
+    <script>
+        let headTag = document.getElementById("head")
+        function b1()
+        {
+            headTag.innerText = "Ritesh"
+            alert("Ritesh")
+        }
+    </script>
+</body>
+</html>
